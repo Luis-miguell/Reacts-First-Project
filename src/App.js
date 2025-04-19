@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import logo from "./logo.svg";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function Tarjeta() {
+    
+    return(
+
+        <div className="container">
+
+            <img src={logo} alt="Imagen de react"/>
+            <h1>Luis Miguel</h1>
+            <p>Desarrollador WEB y jugador de voleyBall <br/> Wazaaaaa</p>
+
+        </div>
+
+    )
+
 }
 
-export default App;
+export default Tarjeta;
