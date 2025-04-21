@@ -1,8 +1,8 @@
-function Result({resultado}){
+function Result({resultado, visibilidad}){
 
     return(
 
-        <p> La suma de los 2 números es: {resultado} </p>
+        <p className={`parrafito ${visibilidad ? "mostrar" : ""}`} id="parrafito"> La suma de los 2 números es: <span>{resultado}</span> </p>
 
     )
 
